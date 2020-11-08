@@ -1,7 +1,7 @@
-import { default as hello } from '../src/index'
+import { default as main } from '../src/index'
 
 describe('Jest ESModule Mock', () => {
   test('...', () => {
-    expect(hello()).toEqual('Hello Jest!!')
+    expect(main()).toEqual('Hello Jest!!')
   })
 })

@@ -3,8 +3,8 @@ dotenv.config()
 
 console.log(process.env.SAMPLE)
 
-const hello = () => {
+const main = () => {
   return 'Hello Jest!!'
 }
 
-export default hello
+export default main
